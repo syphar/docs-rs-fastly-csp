@@ -1,0 +1,11 @@
+[package]
+name = "network-error-logging"
+version = "0.1.0"
+authors = ["Patrick Hamann <patrick@fastly.com>"]
+edition = "2018"
+
+[profile.release]
+debug = true
+
+[dependencies]
+fastly = "0.7.1"
