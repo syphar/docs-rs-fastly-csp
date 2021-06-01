@@ -9,3 +9,4 @@ debug = true
 
 [dependencies]
 fastly = "0.7.1"
+lol_html = "0.3.0"
