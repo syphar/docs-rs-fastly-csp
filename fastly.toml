@@ -2,9 +2,8 @@
 # https://developer.fastly.com/reference/fastly-toml/
 
 authors = ["denis.cornehl@gmail.com"]
-description = "Capture Network Error Logging (NEL) reports from the browser, format them and forward the data to your preferred logging provider"
+description = "generate a CSP nonce, set CSP headers and rewrite the HTML to include the nonce in script tags"
 language = "rust"
 manifest_version = 1
 name = "docs-rs-fastly-csp"
 service_id = "2uZzD8OMOv1h8M02soELwc"
-
