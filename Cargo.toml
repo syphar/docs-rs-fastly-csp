@@ -8,5 +8,7 @@ edition = "2018"
 debug = true
 
 [dependencies]
+base64 = "0.13.0"
 fastly = "0.7.1"
+getrandom = "0.2.3"
 lol_html = "0.3.0"
