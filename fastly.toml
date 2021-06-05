@@ -6,4 +6,5 @@ description = "Capture Network Error Logging (NEL) reports from the browser, for
 language = "rust"
 manifest_version = 1
 name = "docs-rs-fastly-csp"
-service_id = "7KPLvnfpe78M0uY9GbdbBY"
+service_id = "2uZzD8OMOv1h8M02soELwc"
+
