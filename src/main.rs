@@ -7,6 +7,8 @@ fn main() -> Result<(), Error> {
     let req = Request::from_client();
     let mut response = req.send(BACKEND_NAME)?;
 
+    // TODO: decide by content-type if we want to rewrite or not.
+
     let mut random = [0u8; 36];
     getrandom::getrandom(&mut random).expect("failed to generate a nonce");
 
